@@ -188,6 +188,7 @@ void AccountListPage::on_actionAddMicrosoft_triggered()
 
 void AccountListPage::on_actionAddOffline_triggered()
 {
+
     MinecraftAccountPtr account = OfflineLoginDialog::newAccount(
         this,
         tr("Please enter your desired username to add your offline account.")
